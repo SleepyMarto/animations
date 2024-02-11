@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<title> "blur Animation" </title>
+
+</head>
+<style>
+
+	.load {
+		width: 100%;
+		height: 100%;
+		animation: loading 5s;
+	}
+	@keyframes loading {
+			0% {
+				background-image: url(housenightskyupscaled.gif);
+				background-repeat: no-repeat;
+				background-attachment: fixed; 
+				background-size: cover;
+				background-color: #17191f;
+				filter: blur(10px);
+			}
+			100% {
+				background-image: url(housenightskyupscaled.gif);
+				background-repeat: no-repeat;
+				background-attachment: fixed; 
+				background-size: cover;
+				background-color: #17191f;
+			}
+	}
+
+	html, body {
+		height: 100%;
+		overflow: hidden;
+		margin: 0;
+	}
+	body {
+		background-image: url(housenightskyupscaled.gif);
+		background-repeat: no-repeat;
+		background-attachment: fixed; 
+		background-size: cover;
+		background-color: #17191f;
+	}
+
+</style>
+<body>
+
+<div class="load"> </div>
+
+</body>
+</html>
